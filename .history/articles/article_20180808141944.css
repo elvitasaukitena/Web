@@ -1,0 +1,19 @@
+.img-thumbnail {
+    height: 100px;
+    width: 100px;
+}
+#row2{
+    margin: auto;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    
+}
+.title{
+    padding-top: 5px;
+    
+}
+#mainimage{
+    margin: 5%;
+    width: 100%;
+}

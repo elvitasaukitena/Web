@@ -1,0 +1,48 @@
+.img-thumbnail {
+    height: 100px;
+    width: 100px;
+}
+#row2{
+    margin: auto;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    
+}
+
+h5{
+    margin-left: 1%;
+    
+}
+.title{
+    padding-top: 5px;
+    
+}
+
+.mainimg {
+   height: 200px;
+   width: 90%;
+    object-fit: cover;
+    object-position: 100% 0;
+   margin-right: 5%;
+    
+    
+}
+
+
+#mainimage{
+    margin: 5%;
+    width: 100%;
+    
+    
+}
+
+.blackborder{
+    border: 3px;
+    border-style: solid;
+    border-color : black;
+   
+}
+.art_text{
+    padding-left: 5%;
+}

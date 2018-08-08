@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="about.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="../homepage/home.html">
+                    <img id="img1" src="https://orig00.deviantart.net/999e/f/2017/347/7/e/cute_cat_gif_version_by_byanchalovelemon-dbwlb8v.gif">
+
+                </a>
+            </div>
+            <div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../home/home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../articles/articles.html">Articles</a>
+                        </li>
+                        <li>
+                            <a href="../chat/chat.html">Chat</a>
+                        </li>
+                        <li>
+                            <a href="../register/register.html">Register</a>
+                        </li>
+                        <li>
+                            <a href="../about us/about.html">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+    </header>
+
+    <ul class="nav nav-pills bg-light">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#home">Tab 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu1">Tab 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Tab 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu3">Tab 4</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+            <br>
+            <div class="articles-list bg-light">
+
+                <div class="row">
+                    <div class="col-2">
+
+                        <img src="https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg" class="img-fluid img-thumbnail"
+                            alt="">
+                    </div>
+                    <div class="col-10">
+                        <h5>
+                            <a href="../articles/articles1.html">Article 1</a>
+                        </h5>
+                        <p>Unlike dogs, cats do not have a sweet tooth. Scientists believe this is due to a mutation in a key
+                            taste receptor. When a cat chases its prey, it keeps its head level. Dogs and humans bob their
+                            heads up and down.</p>
+                        <p>While it is commonly thought that the ancient Egyptians were the first to domesticate cats, the oldest
+                            known pet cat was recently found in a 9,500-year-old grave on the Mediterranean island of Cyprus.
+                            This grave predates early Egyptian art depicting cats by 4,000 years or more.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    <div class="col-md-6">
+        <div id="map-here" class="row bg-light"></div>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = { lat: -50.608337, lng: 165.974009 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+            <iframe>width="310" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr9jCgEhUYb9pBnkXZDHXxRNUtriVvb8E&callback=initMap">
+        </script>
+        <div>
+            <h4>Address:</h4>
+            <p>Box street 6, Hampton</p>
+        </div>
+        <div>
+            <h4>Email:</h4>
+            <p>cats@cats.com</p>
+        </div>
+        <div>
+            <h4>Phone:</h4>
+            <p>20000000</p>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
